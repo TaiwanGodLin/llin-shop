@@ -94,7 +94,7 @@
 
 <div class="header">
     <h1>🏮 林家的店</h1>
-    <p>日常小吃</p>
+    <p>日常小吃，生活味蕾</p>
 </div>
 
 <div class="container">
@@ -114,17 +114,17 @@
         
         <div class="input-group">
             <label>公司名稱（聯絡人）</label>
-            <input type="text" id="comp-name" class="form-control" placeholder="例如：台積電（王先生）">
+            <input type="text" id="comp-name" class="form-control" placeholder="">
         </div>
 
         <div class="input-group">
             <label>聯絡電話</label>
-            <input type="tel" id="user-phone" class="form-control" placeholder="例如：0912-345678">
+            <input type="tel" id="user-phone" class="form-control" placeholder="">
         </div>
 
         <div class="input-group">
             <label>訂單備註</label>
-            <input type="text" id="order-note" class="form-control" placeholder="例如：飯少、不加蔥">
+            <input type="text" id="order-note" class="form-control" placeholder="">
         </div>
         
         <ul class="cart-list" id="cart-list"></ul>
@@ -279,7 +279,7 @@
         details += `----------\n總計：NT$ ${total}`;
         
         // 記得將下面 your-email@example.com 換成您的收件信箱
-        window.location.href = `mailto:your-rogerlin0731@gmail.com?subject=新訂單-${comp}&body=${encodeURIComponent(details)}`;
+        window.location.href = `mailto:rogerlin0731@gmail.com?subject=新訂單-${comp}&body=${encodeURIComponent(details)}`;
     };
 
     initMenu();
